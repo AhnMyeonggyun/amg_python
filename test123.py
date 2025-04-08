@@ -8,7 +8,7 @@ client = OpenAI(
 )
 
 st.set_page_config(page_title="Groq Chatbot", page_icon="🤖")
-st.title("💬 Groq 기반 챗봇!")
+st.title("💬 Groq 기반 챗봇")
 
 # 세션 상태 초기화
 if "messages" not in st.session_state:
